@@ -26,11 +26,11 @@ esp8266:
   restore_from_flash: true
 
 dashboard_import:
-  package_import_url: github://mill1000/esphome-ratgdodo/v25board_esp8266_d1_mini.yaml@main
+  package_import_url: github://mill1000/esphome-ratgdo/v25board_esp8266_d1_mini.yaml@main
 
 packages:
   remote_package:
-    url: https://github.com/mill1000/esphome-ratgdodo
+    url: https://github.com/mill1000/esphome-ratgdo
     files: [base.yaml]
     refresh: 1s
 

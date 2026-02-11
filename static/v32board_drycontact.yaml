@@ -25,11 +25,11 @@ esp32:
   board: esp32dev
 
 dashboard_import:
-  package_import_url: github://mill1000/esphome-ratgdodo/v32board_drycontact.yaml@main
+  package_import_url: github://mill1000/esphome-ratgdo/v32board_drycontact.yaml@main
 
 packages:
   remote_package:
-    url: https://github.com/mill1000/esphome-ratgdodo
+    url: https://github.com/mill1000/esphome-ratgdo
     ref: main
     files: [base_drycontact.yaml]
     refresh: 1s
